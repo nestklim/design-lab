@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+body{
+	font: 300 16px/1.5 'Lato', Arial, sans-serif;
+	color: #3c3c3c;
+	text-align: center;
+}
+
+/* Typography */
+h1,h2,h3,h4,h5,h6{
+	font-weight: 700;
+	letter-spacing: .16em;
+	text-transform: uppercase;
+	line-height: 1.3;
+	margin: 0;
+}
+p{
+	margin: 0 0 25px;
+}
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	text-decoration: none;
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	min-height: 60px;
+	line-height: 60px;
+	padding: 0 136px;
+	background:  #3c3c3c;
+	color: #FFF;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: .16em;
+	margin: 15px 0 50px;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+	background: #111;
+	transition: background-color .3s ease-in;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 943px;
+}
+.ba-header{
+	background: #A9B5C8 url(../img/hero-bg.jpg) 50% no-repeat;
+	background-size: cover;
+	color: #fff;
+	padding: 284px 0 364px;
+	min-height: 100vh;
+	font-size: 15px;
+	letter-spacing: 0.06em;
+	font-weight: 400;
+	text-transform: uppercase;
+	line-height: 1.93;
+	position: relative;
+}
+.ba-container--hero{
+	max-width: 640px;
+}
+.ba-logo{
+	display: inline-block;
+	margin-bottom: 72px;
+}
+.ba-header__title{
+	font-size: 54px;
+	margin: 0 0 34px;
+	line-height: 1.2;
+}
+.ba-scroll{
+	display: block;
+	width: 23px;
+	height: 37px;
+	position: absolute;
+	bottom: 115px;
+	left: 50%;
+	margin-left: -12px;
+	background: url(../img/scroll.svg) 50% no-repeat;
+	background-size: cover;
+}
+.ba-scroll:hover{
+	opacity: .6;
+}
+.ba-section{
+
+}
+/* About */
+.ba-about{
+	padding: 160px 0 158px;
+}
+.ba-box{
+	border: 2px solid #3c3c3c;
+	border-width: 0 2px 2px;
+	padding: 70px 170px 0;
+	position: relative;
+}
+.ba-box:before,
+.ba-box:after{
+	display: block;
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 26.5%;
+	background: #3C3C3C;
+	top: 0;
+}
+.ba-box:before{
+	left: 0;
+}
+.ba-box:after{
+	right: 0;
+}
+.ba-box:last-child{
+	margin-bottom: 0;
+}
+.ba-box--light{
+	border-color: #FFF;
+}
+.ba-box--light:before,
+.ba-box--light:after{
+	background: #FFF;
+}
+.ba-box__title{
+	font-size: 34px;
+	position: absolute;
+	left: 26.5%;
+	top: 0;
+	margin: 0;
+	width: 47%;
+	transform: translateY(-50%);
+
+}
+/* Services */
+
+.ba-services{
+	background: #A9B5C8 url(../img/services.jpg) 50% no-repeat;
+	background-size: cover;
+	color: #fff;
+	line-height: 1.63;
+	padding: 128px 0 110px;
+}
+/* what we do */
+
+.ba-what-we-do{
+	padding: 120px 0 116px;
+	font-size: 14px;
+	line-height: 1.85;
+}
+.ba-info{
+	padding: 50px 0;
+}
+ .ba-info{
+ 	padding: 55px 0 59px;
+}
+ .ba-info--design{
+ 	padding-bottom: 25px;
+}
+ .ba-info--development{
+ 	padding-bottom: 5px;
+}
+.ba-info__title{
+	font-size: 20px;
+	margin: 28px 0 23px;
+	margin: 30px 0;
+}
+.ba-info img{
+	display: inline-block;
+}
+/* works */
+.ba-width-29{
+	width: 29%;
+}
+.ba-width-42{
+	width: 42%;
+}
+.ba-work{
+	position: relative;
+	display: block;
+	color: #FFF;
+}
+.ba-work:hover{
+	opacity: .7;
+}
+.ba-work img{
+	display: block;
+	width: 100%;
+}
+.ba-work__title{
+	font-size: 34px;
+	position: absolute;
+	left: 40px;
+	bottom: 40px;
+	line-height: 1;
+}
+/* contact */
+
+.ba-contact{
+	padding: 139px 0 62px;
+}
+.ba-box__title--contact{
+	font-size: 30px;
+}
+/* footer */
+.ba-footer{
+	padding-bottom: 60px;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.63;
+}
+.ba-footer a{
+	color: #3c3c3c;
+}
+.ba-footer a:hover{
+	text-decoration: underline;
+}
+.ba-logo--dark{
+	vertical-align: middle;
+	margin: 0;
+	margin-right: 35px;
+}
