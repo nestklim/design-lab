@@ -18,9 +18,37 @@
 	<![endif]-->
 </head>
 <body>
+    <svg hidden>
+        <symbol id="logo" viewBox="0 0 94 98">
+            <defs>
+                <style>
+                  .cls-4 {
+                    stroke: currentcolor;
+                    stroke-width: 2px;
+                    fill: none;
+                }
+                .cls-5 {
+                    fill: currentcolor;
+                }
+                </style>
+            </defs>
+            <g>
+                <path d="M87.996,96.000 C87.996,96.000 48.000,19.004 48.000,19.004 C48.000,19.004 8.004,96.000
+                8.004,96.000 C8.004,96.000 87.996,96.000 87.996,96.000 Z" class="cls-4"/>
+                <circle class="cls-4" cx="47" cy="47" r="46"/>
+                <circle class="cls-5" cx="47" cy="93" r="5"/>
+                <circle class="cls-5" cx="84" cy="93" r="5"/>
+                <circle class="cls-5" cx="7" cy="93" r="5"/>
+            </g>
+        </symbol>
+    </svg>
 	<header class="ba-header">
 		<div class="ba-container ba-container--hero">
-			<a href="#" class="ba-logo" title="Design Lab"><img src="img/logo.svg" alt="Design Lab"></a>
+			<a href="#" class="ba-logo" title="Design Lab"><!-- <img src="img/logo.svg" alt="Design Lab"> -->
+                <svg width="69" height="71">
+                    <use xlink:href="#logo"/>
+                </svg>
+            </a>
 			<h1 class="ba-header__title">WORKING<br>WITH design LAB</h1>
 			<p>We’ve been helping startups launch and grow their businesses.<br>
 				We help you to fill the gap between development,<br>design and product management.
@@ -148,10 +176,13 @@
 	</main>
 	<footer class="ba-footer">
 		<div class="ba-copyright">
-			<a href="#" class="ba-logo ba-logo--dark"><img src="img/logo-dark.svg" alt="Design lab"></a>
+			<a href="#" class="ba-logo ba-logo--dark"><!-- <img src="img/logo-dark.svg" alt="Design lab"> -->
+                <svg width="35" height="37">
+                    <use xlink:href="#logo"/>
+                </svg>
+            </a>
 			&copy; 2014. All Rights Reserved <a href="#">Ellipsis.com</a>
 		</div>
 	</footer>
 </body>
 </html>
-

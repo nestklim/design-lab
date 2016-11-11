@@ -99,6 +99,7 @@ textarea {
 .ba-logo{
 	display: inline-block;
 	margin-bottom: 72px;
+	color: #FFF;
 }
 .ba-header__title{
 	font-size: 54px;
@@ -255,4 +256,5 @@ textarea {
 	vertical-align: middle;
 	margin: 0;
 	margin-right: 35px;
+	color: #3C3C3C;
 }
